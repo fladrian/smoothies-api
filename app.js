@@ -10,7 +10,7 @@ const Smoothies = require('./routes/smoothies');
 const Liquids = require('./routes/liquids');
 const Proteins = require('./routes/proteins');
 const Fruits = require('./routes/fruits');
-const DB = process.env.DB;
+const DB = 'mongodb+srv://fladrian:smoothies123@cluster0-va70l.mongodb.net/smoothies-app?retryWrites=true&w=majority'
 var app = express();
 app.use(cors());
 app.use(logger('dev'));
